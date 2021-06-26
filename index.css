@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {background-image: url("https://wallpaperaccess.com/full/1321265.jpg");}
+.img2 {background-image: url("https://www.irishnews.com/picturesarchive/irishnews/irishnews/2018/03/11/181039187-d87ff77c-48c4-4a04-89d0-feae54f2faec.jpg");}
+.img3 {background-image: url("https://i.natgeofe.com/n/705ec8f5-2a1b-43c1-98ba-1d8ebfe58fce/01-trumps-ocean-policy-nationalgeographic_2461163_16x9.jpg?w=636&h=358");}
+.img4 {background-image: url("https://ml8ygptwlcsq.i.optimole.com/fMKjlhs-Dn1kuuR_/w:412/h:274/q:auto/https://www.unite.ai/wp-content/uploads/2020/04/fish-288988_960_720.jpg");}
+.img5 {background-image: url("https://ensia.com/wp-content/uploads/2017/02/feature_ocean_soundscapes_main2-1-760x378.jpg");}
+.img6 {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg069NjXxl1pnbY0J6a7JOkoqAGMp3Kh2YcIfim4M_KX84wvX_sF4e7UFbVnhRg-OWOUU&usqp=CAU");}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
